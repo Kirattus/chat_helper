@@ -34,7 +34,7 @@ Não é necessario reiniciar a aplicação para modificar o json, basta Desativa
     "chat": {
         "default":{
             "Opção 1":{
-                "SubOption1": ["paste", "SubOption1 > Option 1"],
+                "SubOption1": ["paste", "SubOption1 > Olá sou o $name$, tudo bem?$newLine$Como posso ajudar?"],
                 "SubOption2": ["paste", "SubOption2 > Option 1"],
                 "SubOption3":{
                     "SubSubOption1": ["SubSubOption1 > SubOption3 > Option 1"],
@@ -56,7 +56,7 @@ Não é necessario reiniciar a aplicação para modificar o json, basta Desativa
 
 
 > Podemos usar as seguintes opções para a formatação do texto dentro do arquivo json:
-- \$name$ - Adiciona o valor de "name" dentro da frase nas opções.
+- \$name$" - Adiciona o valor de "name" dentro da frase nas opções.
 - \$newLine$ - Faz o pressionamento das teclas "Shift+ENTER" para pular uma linha.
 - \\n - Pressiona ENTER.
 
