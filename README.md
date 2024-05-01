@@ -26,7 +26,7 @@ O Chat_Helper tentará identificar a janela ativa com base no nome da janela def
 ![TrayApp](/src/app.ico) Esse icone aparecerá na bandeja onde será o controle da aplicação, ao selecionar "Ativar", o *json* de configuração será carregado para criação do menu tendo a oções *hotkey* configurada para mostrar o menu.
 Não é necessario reiniciar a aplicação para modificar o json, basta Desativar e Ativar novamente o App pela bandeja.
 
-> Esse é um modelo basico da estrutura do arquivo de configuração para a criação dos menus.
+> Esse é um modelo basico da estrutura do arquivo de configuração para a criação dos menus (config.json).
 ```
 {
     "name": "SEU_NOME_AQUI",
