@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "chat-helper"
+version = "0.1.0"
+description = ""
+authors = ["kirattus <paulohenrique.souza@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyqt6 = "^6.7.0"
+keyboard = "^0.13.5"
+pyautogui = "^0.9.54"
+psutil = "^5.9.8"
+pywin32 = "^306"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
